@@ -102,13 +102,13 @@ curl http://:/status
 •	All nodes should have the same committed logs:
 "log":[{"term":3,"cmd":"SET x=5"}, {"term":4,"cmd":"SET y=10"}, {"term":4,"cmd":"SET z=20"}],
 "commitIndex":2
-    <img width="764" height="45" alt="image" src="https://github.com/user-attachments/assets/b5e7c905-f0f4-4b0a-bff0-7508cf88febc" />
+   <img width="764" height="45" alt="image" src="https://github.com/user-attachments/assets/b5e7c905-f0f4-4b0a-bff0-7508cf88febc" />
     
-    <img width="603" height="58" alt="image" src="https://github.com/user-attachments/assets/ac9b12c2-5f96-48c3-91c1-9335b562507a" />
+   <img width="603" height="58" alt="image" src="https://github.com/user-attachments/assets/ac9b12c2-5f96-48c3-91c1-9335b562507a" />
     
-    <img width="603" height="58" alt="image" src="https://github.com/user-attachments/assets/0de312b7-6b2a-4376-b58f-a9effd33cff3" />
+   <img width="603" height="58" alt="image" src="https://github.com/user-attachments/assets/0de312b7-6b2a-4376-b58f-a9effd33cff3" />
 
-    <img width="603" height="58" alt="image" src="https://github.com/user-attachments/assets/d828b662-e3f1-4881-86ba-d8eae5de58d1" />
+   <img width="603" height="58" alt="image" src="https://github.com/user-attachments/assets/d828b662-e3f1-4881-86ba-d8eae5de58d1" />
 
 
 ________________________________________
