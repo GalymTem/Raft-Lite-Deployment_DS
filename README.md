@@ -7,12 +7,22 @@ Description:
 The same node.py code was deployed on all 3 nodes. Each node was started with its own ID, port, and peers.
 Commands:
 Node A: python3 node.py --id A --port 8000 --peers http://172.31.20.250:8001,http://172.31.16.147:8002
+
 Node B: python3 node.py --id B --port 8001 --peers http://172.31.28.165:8000,http://172.31.16.147:8002
+
 Node C: python3 node.py --id C --port 8002 --peers http://172.31.28.165:8000,http://172.31.20.250:8001
+
 Observations:
 •	All nodes start as Followers.
 •	After a short timeout, one node becomes Leader automatically.
 •	Status check example: curl http://172.31.28.165:8000/status
+<img width="974" height="227" alt="image" src="https://github.com/user-attachments/assets/da644734-4ef8-46bc-a3e4-56d2dadfe210" />
+
+<img width="974" height="95" alt="image" src="https://github.com/user-attachments/assets/54afa88c-867d-4fa9-9280-bd48b08dfc44" />
+
+<img width="974" height="77" alt="image" src="https://github.com/user-attachments/assets/95cf1ae3-3d08-4da5-9689-d14fd773944a" />
+
+
    ________________________________________
 2.	Scenario: Leader Election
 Steps:
